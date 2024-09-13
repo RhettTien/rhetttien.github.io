@@ -22,6 +22,11 @@ else if (today == 8 && currentMonth === 4) {
     set_images('48');
 }
 
+// Mid-Autumn Festival
+else if (lunchDay == 15 && lunchMonth === 8) {
+    set_images('0815');
+}
+
 // 1945.9.9
 else if (today == 9 && currentMonth === 9) {
     set_images('99');
@@ -36,6 +41,11 @@ else if (today == 1 && currentMonth === 10) {
 //else if (today == 14 && currentMonth === 6) {
 else if ((today == 31 && currentMonth === 10) || (today == 1 && currentMonth === 11)) {
     set_images('1031');
+}
+
+// 11-24
+else if (today == 24 && currentMonth === 11) {
+    set_images('1124');
 }
 
 // 12-22
@@ -56,20 +66,19 @@ else if (lunchDay == 30 && lunchMonth === 12) {
 // New Year
 else if (([1, 2, 3, 4, 5, 6].includes(lunchDay)) && lunchMonth === 1) {
     set_images('11');
+}
 
-} else {
+// Lantern Festival
+else if (lunchDay == 15 && lunchMonth === 1) {
+    set_images('0115');
+}
+
+else {
     set_images('00');
 }
 
-// The custom of the Spring Festival
-// Lantern Festival
-// Mid-Autumn Festival
-// Dragon Boat Festival
-// Double Seventh Festival
-// International Children's Day
-
 function remove_div() {
-    setTimeout(function() {
+    setTimeout(function () {
         document.getElementById("myImage").remove();
         $(".active").css('display', 'none');
     }, 1000);
@@ -95,7 +104,7 @@ function removeRepeatedSubstring(str) {
 
 // 读取资源函数函数
 function set_images(day) {
-    $.getJSON("wp-content/themes/myBlog/assets/data/data_images.json", function(data) {
+    $.getJSON("wp-content/themes/myBlog/assets/data/data_images.json", function (data) {
         var url = data[day].url;
         var comment = data[day].comment;
         var images = data[day].images;
@@ -116,12 +125,12 @@ function set_images(day) {
 
             if (day == 48) {
 
-				var body = document.body;
-				var script = document.createElement('script');
-				script.type = 'text/javascript';
-				script.src = removeRepeatedSubstring(data[day].css);
-				body.appendChild(script);
-				
+                var body = document.body;
+                var script = document.createElement('script');
+                script.type = 'text/javascript';
+                script.src = removeRepeatedSubstring(data[day].css);
+                body.appendChild(script);
+
                 // let number = Math.floor(len / 2) - 1;
                 // var result2 = removeRepeatedSubstring(images[number]);
                 // aimg.setAttribute('src', images[5]);
@@ -189,7 +198,7 @@ function set_images(day) {
             img.setAttribute('src', result);
             img.style.opacity = 1;
 
-            img.ondblclick = function() {
+            img.ondblclick = function () {
                 img.style.opacity = 0;
                 remove_div();
             };

@@ -2,7 +2,7 @@
     "comment": "注释：对象名为日期简写，对象属性按顺序分别是‘信息’，‘链接’，‘文字’，‘图片列表’",
     "00":
     {
-        "info": "默认",
+        "info": "",
         "url": "https://www.bilibili.com/opus/935837897422012439",
         "comment": "",
         "images": ["wp-content/themes/myBlogwp-content/themes/myBlog/assets/images/home/c20240526.jpg"],
@@ -19,7 +19,7 @@
     "48":
     {
         "info": "棋手战鹰",
-        "url": "https://live.bilibili.com/23141761",
+        "url": "https://space.bilibili.com/2051617240",
         "comment": "",
         "images": [
             "wp-content/themes/myBlog/assets/images/ying/z_01.jpg",
@@ -33,25 +33,20 @@
             "wp-content/themes/myBlog/assets/images/ying/z_09.jpg",
             "wp-content/themes/myBlog/assets/images/ying/z_10.jpg",
             "wp-content/themes/myBlog/assets/images/ying/z_11.jpg",
-            "wp-content/themes/myBlog/assets/images/ying/z_12.png",
+            "wp-content/themes/myBlog/assets/images/ying/z_12.jpg",
             "wp-content/themes/myBlog/assets/images/ying/z_13.jpg",
             "wp-content/themes/myBlog/assets/images/ying/z_14.jpg",
-            "wp-content/themes/myBlog/assets/images/ying/z_15.jpg",
-            "wp-content/themes/myBlog/assets/images/ying/z_16.jpg",
-            "wp-content/themes/myBlog/assets/images/ying/z_17.jpg",
-            "wp-content/themes/myBlog/assets/images/ying/z_18.jpg",
-            "wp-content/themes/myBlog/assets/images/ying/z_19.jpg",
-            "wp-content/themes/myBlog/assets/images/ying/z_20.jpg",
-            "wp-content/themes/myBlog/assets/images/ying/z_21.jpg",
-            "wp-content/themes/myBlog/assets/images/ying/z_22.jpg",
-            "wp-content/themes/myBlog/assets/images/ying/z_23.jpg",
-            "wp-content/themes/myBlog/assets/images/ying/z_24.jpg",
-            "wp-content/themes/myBlog/assets/images/ying/z_25.jpg",
-            "wp-content/themes/myBlog/assets/images/ying/z_26.jpg",
-            "wp-content/themes/myBlog/assets/images/ying/z_27.jpg",
-            "wp-content/themes/myBlog/assets/images/ying/z_28.jpg"
+            "wp-content/themes/myBlog/assets/images/ying/z_15.jpg"
         ],
         "css": "wp-content/themes/myBlog/assets/js/sakura.js"
+    },
+    "0815":
+    {
+        "info": "中秋节",
+        "url": "",
+        "comment": "",
+        "images": ["wp-content/themes/myBlog/assets/images/festival/Mid-Autumn-Festival.jpg"],
+        "css": ""
     },
     "99":
     {
@@ -76,6 +71,14 @@
         "comment": "",
         "images": ["wp-content/themes/myBlog/assets/images/festival/Halloween.jpg"],
         "css": "wp-content/themes/myBlog/assets/css/pumpkin.css"
+    },
+    "1124":
+    {
+        "info": "",
+        "url": "https://en.wikipedia.org/wiki/2022_%C3%9Cr%C3%BCmqi_fire",
+        "comment": "",
+        "images": ["/wp-content/themes/myBlogwp-content/themes/myBlog/assets/images/home/202211241949.png"],
+        "css": ""
     },
     "1222":
     {
@@ -108,5 +111,13 @@
         "comment": "",
         "images": [],
         "css": "wp-content/themes/myBlog/assets/js/china-lantern.min.js"
+    },
+    "0115":
+    {
+        "info": "元宵节",
+        "url": "",
+        "comment": "",
+        "images": ["wp-content/themes/myBlog/assets/images/festival/0115-Lantern-Festival.jpg"],
+        "css": ""
     }
 }
