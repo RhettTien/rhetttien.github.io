@@ -48,14 +48,6 @@
         "images": ["wp-content/themes/myBlog/assets/images/festival/Mid-Autumn-Festival.jpg"],
         "css": ""
     },
-    "99":
-    {
-        "info": "Japanese surrender in Nanjing",
-        "url": "",
-        "comment": "",
-        "images": ["wp-content/themes/myBlog/assets/images/home/Official_Japanese_surrender_in_Nanjing_(1945).jpg"],
-        "css": ""
-    },
     "101":
     {
         "info": "Mao Proclaiming New China",
@@ -75,7 +67,7 @@
     "1124":
     {
         "info": "",
-        "url": "https://en.wikipedia.org/wiki/2022_%C3%9Cr%C3%BCmqi_fire",
+        "url2": "https://en.wikipedia.org/wiki/2022_%C3%9Cr%C3%BCmqi_fire",
         "comment": "",
         "images": ["/wp-content/themes/myBlogwp-content/themes/myBlog/assets/images/home/202211241949.png"],
         "css": ""
