@@ -48,6 +48,14 @@
         "images": ["wp-content/themes/myBlog/assets/images/festival/Mid-Autumn-Festival.jpg"],
         "css": ""
     },
+    "0918":
+    {
+        "info": "27",
+        "url": "",
+        "comment": "",
+        "images": ["wp-content/themes/myBlog/assets/images/home/20220918.jpg"],
+        "css": ""
+    },
     "101":
     {
         "info": "Mao Proclaiming New China",
