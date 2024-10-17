@@ -27,9 +27,9 @@ else if (lunchDay == 15 && lunchMonth === 8) {
     set_images('0815');
 }
 
-// 1945.9.9
-else if (today == 9 && currentMonth === 9) {
-    set_images('99');
+// 2022.09.18
+else if (today == 18 && currentMonth === 9) {
+    set_images('0918');
 }
 
 // 10.1
@@ -102,7 +102,7 @@ function removeRepeatedSubstring(str) {
     return str;
 }
 
-// 读取资源函数函数
+// 读取资源函数
 function set_images(day) {
     $.getJSON("wp-content/themes/myBlog/assets/data/data_images.json", function (data) {
         var url = data[day].url;
@@ -110,21 +110,17 @@ function set_images(day) {
         var images = data[day].images;
 
         let len = images.length;
-
         // 图片
         if (len == 0) {
-            console.log("0");
-
+            // console.log("0");
             var result = removeRepeatedSubstring(data['00'].images[0]);
             aimg.setAttribute('src', result);
-
             var url = data['00'].url;
             aurl.setAttribute('href', url);
             aurl.style.pointerEvents = "auto";
         } else if (len > 1) {
 
             if (day == 48) {
-
                 var body = document.body;
                 var script = document.createElement('script');
                 script.type = 'text/javascript';
@@ -134,7 +130,6 @@ function set_images(day) {
                 // let number = Math.floor(len / 2) - 1;
                 // var result2 = removeRepeatedSubstring(images[number]);
                 // aimg.setAttribute('src', images[5]);
-
                 smsg.innerHTML = "<span id=\"text\">Happy&nbsp;" + (date.getFullYear() - 2020) + "th&nbsp;Birthday&nbsp;to&nbsp;Zhan&nbsp;Ying&nbsp;~</span>";
 
                 let isTyping = true;
@@ -169,9 +164,7 @@ function set_images(day) {
                     }
                 }
                 type().catch(console.error);
-
                 smsg.style.opacity = 1;
-
                 async function delayedLoop(delay) {
                     var ii = 0
                     while (true) {
@@ -187,7 +180,7 @@ function set_images(day) {
                 delayedLoop(3000).catch(console.error); // 3000毫秒
             }
         } else {
-            console.log("1");
+            // console.log("1");
             var result = removeRepeatedSubstring(images[0]);
             aimg.setAttribute('src', result);
         }
